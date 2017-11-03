@@ -21,3 +21,4 @@ User.destroy_all
   movies << Movie.create( name: "It", rating: "R", year: 1991)
   movies << Movie.create( name: "Ghosts of Mars", rating: "R", year: 2001)
   
+  users.each.
